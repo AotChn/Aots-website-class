@@ -1,0 +1,37 @@
+<!-- defines that this is a HTML file -->
+<!DOCTYPE html>
+<!-- describes some characteristics of the file  -->
+<html lang="en">
+<head>
+<!-- describes some more characteristics of the file  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+    <body>
+        <!---div is just a container that occupies the full space of its outer container-->
+        <!---this is an example of a box with the word pinapple-->
+        <div class="div-box">
+            <p id="word">Pineapples</p>
+        </div>
+
+        <!---span is also a container but does not take up the space of the outer container-->
+        <!--it only occupies the space of its content-->
+        <span class="span-box">
+            <p id="word">Pineapples</p>
+        </span>
+
+        <!--you can put divs inside another div-->
+        <div class="big-box">
+            <div class="smaller-box">
+                <div class="even-smaller-box">
+                    content
+                </div>
+            </div>
+        </div>
+
+        <!-- this is used to link ur style sheets and js scripts -->
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </body>
+</html>
